@@ -36,12 +36,15 @@ If you want to add new feature to this bot, just fork this repository.
 2. Go to the folder where you clone or download this repository
 3. Type `npm install`
 4. Set the empty strings/arrays in the config.json
-```env
-DISCORD_TOKEN=(fill your bot token here)
-ALLOWED_ROLES_ID=(allowed roles id, just leave it blank if you don't want to use this)
-MAX_MESSAGE_COUNT=(how many message before the bot send the message again. Minimum is 5 if you want to comply with Discord ToS)
-OWNER=(your user id or someone user id (e.g. server owner))
-PREFIX=(command prefix)
+4.1 I don't recommend changing `maxMessageCount` to a higher value than 10. But it also must remain an integer.
+```json
+{
+    "discordToken": "<Discord Token Goes Here>",
+    "prefix": "<Prefix>",
+    "allowedRolesID": ["RoleID1", "RoleID2", "and so on..."],
+    "maxMessageCount": 1,
+    "ownerID": "Your discord ID"
+}
 ```
 5. Type `node index.js` to start the bot
 
