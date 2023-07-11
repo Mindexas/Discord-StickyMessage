@@ -1,0 +1,23 @@
+{
+  "name": "sticky-message-dc-bot-main",
+  "version": "1.0.0",
+  "description": "A discord bot inspired by StickyBot to stick the messages to a channel",
+  "main": "index.js",
+  "dependencies": {
+    "discord-api-types": "^0.33.5",
+    "discord.js": "^14.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mindexas/Discord-StickyMessage.git"
+  },
+  "author": "Mindexas",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Mindexas/Discord-StickyMessage/issues"
+  },
+  "homepage": "https://github.com/Mindexas/Discord-StickyMessage#readme"
+}

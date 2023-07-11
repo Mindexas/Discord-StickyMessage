@@ -1,0 +1,7 @@
+{
+    "discordToken": "",
+    "prefix": "!",
+    "allowedRolesID": [""],
+    "maxMessageCount": 1,
+    "ownerID": ""
+}
