@@ -12,8 +12,8 @@
 
 This bot gonna send your stickied message after few messages.
 <br />
-This bot is inspired by [StickyBot](https://top.gg/bot/628400349979344919).
-This bot was coded by [andrerahardjo97](https://github.com/andrerahardjo97/)
+This bot is inspired by [StickyBot](https://top.gg/bot/628400349979344919).<br />
+This bot was coded by [andrerahardjo97](https://github.com/andrerahardjo97/) <br />
 Recoded and updated to Discord.JS V14 by [Mindexas](https://github.com/Mindexas)
 
 ## Support
